@@ -35,7 +35,7 @@ const Todo = () =>{
         newTodoList.splice(i, 1);
         updatedList(newTodoList);
     }
-    
+
     return(
         <div className='w-25 mx-auto'>
             <h1>Todos!</h1>
